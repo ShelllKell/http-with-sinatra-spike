@@ -1,0 +1,16 @@
+<html>
+
+<a href='/new'>Add a new student!</a>
+
+
+<ul>
+
+<% students.each do |k,v| %>
+  <li><%= k %> - <a href='/students/<%= v %>'><%= v %></a></li>
+  <% end %>
+</ul>
+
+
+<a href='/'>Go back :(</a>
+
+</html>
